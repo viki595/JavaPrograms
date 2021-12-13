@@ -1,0 +1,12 @@
+package com.viki.program;
+
+public class ReverseaNumber {
+
+	public static void main(String[] args) {
+		int num=123654;
+		StringBuffer sb = new StringBuffer();
+		sb.append(num);
+		
+		System.out.println(sb.reverse());
+	}
+}
