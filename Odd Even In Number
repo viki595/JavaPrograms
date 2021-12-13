@@ -1,0 +1,32 @@
+package com.viki.program;
+
+import java.util.Scanner;
+
+public class EvenOddInNumber {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		
+		System.out.println("Enter The Number ");
+		int number = sc.nextInt();
+		int even=0;
+		int odd=0;
+		
+		while (number>0) {
+			int rem=number%10;
+			
+			if (rem%2==0) {
+				even++;
+				
+			} else {
+				odd++;
+			}
+			number=number/10;
+		}
+		sc.close();
+		System.out.println("Count Of Even Number IS "+" "+even);
+		System.out.println("Count Of odd Number IS "+" "+odd);
+		
+		}
+	
+	}
