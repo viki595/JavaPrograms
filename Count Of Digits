@@ -1,0 +1,22 @@
+package com.viki.program;
+
+import java.util.Scanner;
+
+public class CountOfDigit {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);		
+		System.out.println("Enter The Number  ");
+		int number=sc.nextInt();
+		
+		int count=0;
+		
+		while (number>0) {
+			number=number/10;
+			count++;
+			
+		}
+		sc.close();
+		System.out.println("Count Of Given Number Is "+" "+count);
+	}
+}
