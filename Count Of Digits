@@ -18,5 +18,6 @@ public class CountOfDigit {
 		}
 		sc.close();
 		System.out.println("Count Of Given Number Is "+" "+count);
+		System.out.println("Count Of Given Number Is "+" "+count);
 	}
 }
