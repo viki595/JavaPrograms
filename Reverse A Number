@@ -8,5 +8,6 @@ public class ReverseaNumber {
 		sb.append(num);
 		
 		System.out.println(sb.reverse());
+		System.out.println("done");
 	}
 }
